@@ -71,3 +71,10 @@ a {
     display:flexbox;
     padding: 20px;
    }
+
+   @media screen and (max-width: 768px) {
+    .container-fluid {
+        width: fit-content;
+        margin-right:5%;        
+    }
+    
