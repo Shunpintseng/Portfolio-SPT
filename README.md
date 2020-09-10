@@ -54,6 +54,6 @@ https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
 
 
 
-# File late updated 2020/09/09 9:15PM (Pacifit Time)
+File updated 2020/09/09 9:15PM (Pacifit Time)
 
  Created by Shunpin Tseng (shunpin@gmail.com)
