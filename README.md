@@ -51,6 +51,9 @@ https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js
 3. #id is avoided whenever possible.
 4. headings are the following order: h1 > h2 > h3 > h4.
 5. refer to bootstrap site for additional css code updates and settings
-6. 
 
- 
+
+
+# File late updated 2020/09/09 9:15PM (Pacifit Time)
+
+ Created by Shunpin Tseng (shunpin@gmail.com)
