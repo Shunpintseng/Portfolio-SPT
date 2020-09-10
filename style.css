@@ -1,14 +1,14 @@
-
 body{
     background-image: url("images/bkimg_round.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;   
 }    
 
-nav{
+/* customed nav bar css setting, had an issue with image running on top of nav bar, a z-index is added to correct the image overlaping issue*/
+nav{ 
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 hr{
@@ -29,16 +29,12 @@ footer{
     background-color:lightslategray;
     width: 100%;
     padding: 1%;
-    margin-bottom:0;
-        
+    margin-bottom:0;        
 }
 
-#logo{
-    display: block;
-    height: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-}
+.col img{
+    padding: 2%;
+} 
 
 .bg-light {
     background-color: #adaeb0!important;
@@ -62,7 +58,7 @@ footer{
     float:left;
 }
 
-
+/* customed setting refer to original bootstrap css code for additional changes*/
 .container-fluid{
     background: rgba(236, 236, 236, 0.794);
     margin-top: 5%;
@@ -77,6 +73,7 @@ footer{
     font-size: medium;
 }
 
+/* ID is used for style updates */
 .container-fluid #headshot{
     width: 20vmax;
     height:auto;
@@ -84,17 +81,11 @@ footer{
     margin-right:2%;    
 }
 
-.col img{
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    padding: 2%;
-}
-
 .messagebox{
     margin-top:16px;
     margin-bottom:16px;
 }
+
 .textarea{
     display: block;
     width: 100%;
@@ -117,7 +108,15 @@ footer{
     margin-top:16px
 }
 
-   @media screen and (max-width: 768px) {
+/* ID is used for style updates */
+#logo{
+    display: block;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
     .container-fluid {
         width: fit-content;
         margin-right:5%;        
