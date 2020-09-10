@@ -10,44 +10,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<nav class="navbar bg-dark">
-
-    <span class="name">Shunpin Tseng</span>
-
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About</a>
-        </li>
-    </ul>
-</nav>
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky">
+        <a class="navbar-brand" href="aboutme.html">Shunpin Tseng</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="aboutme.html">About Me</a>
+                <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only"></span></a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
     <div class="container-fluid">
 
-        <div class="page-title">Portfolio</div>
+        <h1>Portfolio</h1>
+        <h6>Here are some of my previous projects as an architect!</h6>
         <hr>
-
-        <div class="gallery">
-            <img src="images/work image 1.PNG" alt="design">
-
-            <img src="images/work image 2.PNG" alt="design">
-
-            <img src="images/work image 3.PNG" alt="design">
-
-            <img src="images/work image 4.PNG" alt="design">
-
-            <img src="images/work image 5.PNG" alt="design">
-
-            <img src="images/work image 6.PNG" alt="design">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-md-3">
+                <div class="col"><img src="images/work image 1.PNG" alt="design"></div>
+                <div class="col"><img src="images/work image 2.PNG" alt="design"></div>
+                <div class="col"><img src="images/work image 3.PNG" alt="design"></div>
+                <div class="col"><img src="images/work image 4.PNG" alt="design"></div>
+                <div class="col"><img src="images/work image 5.PNG" alt="design"></div>
+                <div class="col"><img src="images/work image 6.PNG" alt="design"></div>
+            </div>
         </div>
+    </div>
 
+    <footer><img id="logo" src="images/linkedin-logo.PNG" alt="logo"></footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -6,42 +6,62 @@ body{
     
 }    
 
+nav{
+    position: sticky;
+    top: 0;
+}
+
 hr{
     margin-bottom: 2%;
     background-color:gray;
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    color: white;
-} 
-
-a {
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-}  
-
-.name{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    color: white;
-    font-weight:bolder;
-    padding:1%;
-}
-
-.facepic{
-    widows: 20% v;
-    float:left;
-}
- 
-.page-title{
     font-size: 3rem;
     font-weight:bolder;
     padding: 1%;
     color: grey
 }
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color:lightslategray;
+    width: 100%;
+    padding: 1%;
+    margin-bottom:0;
+        
+}
+
+#logo{
+    display: block;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-light {
+    background-color: #adaeb0!important;
+}
+
+.navbar-brand{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight:bolder;
+}  
+
+.navbar-nav{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight:bolder;
+    text-align: right;
+}  
+
+.facepic{
+    widows: 20% v;
+    float:left;
+}
+
 
 .container-fluid{
     background: rgba(236, 236, 236, 0.794);
@@ -52,7 +72,7 @@ a {
     padding-left:2%;
     padding-right:2%;
     padding-bottom:5%;
-    /* text-align: justify; */
+    text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
@@ -64,13 +84,38 @@ a {
     margin-right:2%;    
 }
 
-.gallery img{
+.col img{
     width: 350px;
     height: 350px;
-    object-fit:cover;
-    display:flexbox;
-    padding: 20px;
-   }
+    object-fit: cover;
+    padding: 2%;
+}
+
+.messagebox{
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.textarea{
+    display: block;
+    width: 100%;
+    height: calc(20em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn{
+    background-color: gray;
+    border-color: gray;
+    margin-top:16px
+}
 
    @media screen and (max-width: 768px) {
     .container-fluid {
