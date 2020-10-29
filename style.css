@@ -122,3 +122,19 @@ footer{
         margin-right:5%;        
     }
     
+  .col {
+      display: inline-block;
+      border: 1px solid;
+      position: absolute;
+  }
+  /* .col img{
+      display: block;
+  }
+
+  .overlay {
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      left: 0;
+      top: 0;      
+  } */
